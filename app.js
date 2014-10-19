@@ -1,0 +1,1 @@
+angular.module('bird.ui', ['ngResource','bird.ui.hashtag'])
