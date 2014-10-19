@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="bird.ui">
+  <head>    
+    <link rel="stylesheet" href="css/bird.css">
+  </head>
+  <body ng-controller="hashtaCtrl">
+    <section class="nest-ui-container" >
+        <div  hash-tag ></div>
+        <div class="actions">
+           <input type="submit" name="post" value="post" />
+        </div>
+    </section>   
+    <p>Test :{{model}}</p>
+      
+    <script src="scripts/vendors/angular.min.js"></script>
+    <script src="scripts/vendors/angular-resource.min.js" ></script>
+    <script src="app.js"></script>
+    <script src="scripts/services/services.js" ></script>
+    <script src="scripts/controllers/hashtagCtrl.js"></script>
+    <script src="scripts/directives/directive.js" ></script>
+    <script src="scripts/vendors/less-1.7.5.min.js" ></script>
+  </body>
+</html>
